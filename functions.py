@@ -27,11 +27,13 @@ def multiply(a,b):
     return a * b	
 
 # create a function to devide
-def devide(a,b)
+def devide(a,b):
     return a / b 
 
 # create a function to % 
-def modulus(a,b)
+def modulus(a,b):
     return a % b
+
+print(modulus(4,2))
 
 
