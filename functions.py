@@ -18,7 +18,7 @@ add(4587,38724)
 
 #creating a function that would subtract the two values
 def subtract(num1,num2):
-    print(num1 - num2)
+    return num1 - num2
 
 subtract(234,100)
 
@@ -36,4 +36,6 @@ def modulus(a,b):
 
 print(modulus(4,2))
 
-
+# storing the outcome of the return statement into a variable 
+subtracted_value = subtract(2,3)
+print(subtracted_value)

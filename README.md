@@ -2,9 +2,9 @@
 
 ### What are functions and why are they useful?
 __DRY__: Don't Repeat Yourself
-Functions help avoid repetition of commonly used blocks of code. `print()` is an example of a function. 
 
-Functions help structure your code to make it more readable and more efficient.
+Functions help avoid repetition of commonly used blocks of code. `print()` is an example of a function. 
+They help structure your code to make it more readable and more efficient.
 
 ### How to Create a Function:
 Syntax: 
@@ -37,11 +37,11 @@ def multiply_print(a,b):
     print(a * b)
 ## multiple(a,b) = print(a*b) 
 ```
-i think it's an important distinction because you can do more stuff with the former than the latter for example I can do 
+It's an important distinction because you can do more stuff with the former than the latter. For example I can do:
 ```python
 print(8 * multiply(2,3))
 ```
-but that wouldn't work for ``multiply_print`` because multiple_print is not a number, it's a print statement.
+but that wouldn't work for ``multiply_print`` because ``multiple_print`` is not a number, it's a print statement.
 
 ## Function Best Practices:
 __KIS__: Keep It Simple! 
