@@ -26,6 +26,23 @@ while increment:
     greeting()
     increment = False # this would run the function once
 ```
+### Return VS Print
+``print`` displays the output, ``return`` actually makes the function equal to the output, so we can use it later if we want to. For example:
+```python
+def multiply(a,b):
+    return a * b 
+## in this case multiply(a,b) = a * b 
+
+def multiply_print(a,b):
+    print(a * b)
+## multiple(a,b) = print(a*b) 
+```
+i think it's an important distinction because you can do more stuff with the former than the latter for example I can do 
+```python
+print(8 * multiply(2,3))
+```
+but that wouldn't work for ``multiply_print`` because multiple_print is not a number, it's a print statement.
+
 ## Function Best Practices:
 __KIS__: Keep It Simple! 
 - Ideally, a function will do one and only one job. It should be a small block. 
