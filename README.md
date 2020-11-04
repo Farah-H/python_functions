@@ -48,10 +48,10 @@ __KIS__: Keep It Simple!
 - Ideally, a function will do one and only one job. It should be a small block. 
 - pseudo coding, one line of explanation.
 - HINTs: create hints in simple bullet points or pointers
-- comments regarding your functoin results
+- comments regarding your functionn results
 
 ### Local vs Global Variables
-- if you declare a variable *inside* a function, the rest of your program 'doesn't know about it' so it does not need to be unique to that function for example
+- if you declare a variable *inside* a function, the rest of your program 'doesn't know about it' so it does not need to be unique to that function. For example:
 
 ```python
 def function_a(num1):
@@ -60,7 +60,8 @@ def function_a(num1):
 def function_b(num1)
     print(num1, num1)
 ```
-this is absolutely fine to do because in this case num1 is not a variable, it is an argument, so a *placeholder* for a variable that you will define when you call the function. However, it is good practice to make your placeholders descriptive if that is necesasry to avoid confusion. For example in the case above, both functions are taking in two numbers, so `num1`and `num2`are fine, but if one of the functions was taking in a string and capitalising it, the following could be a better argument: 
+
+this is absolutely fine to do because in this case num1 is not a variable, it is an argument, so a *placeholder* for a variable that you will define when you call the function. However, it is good to make your placeholders descriptive if that helps to avoid confusion. For example, in the case above, both functions are taking in two numbers, so `num1`and `num2`are fine, but if one of the functions was taking in a string and capitalising it, the following could be a better argument: 
 
 ```python
 def capitalize(string_input):
