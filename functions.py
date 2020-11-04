@@ -21,3 +21,17 @@ def subtract(num1,num2):
     print(num1 - num2)
 
 subtract(234,100)
+
+# create  a function to  multiply
+def multiply(a,b):
+    return a * b	
+
+# create a function to devide
+def devide(a,b)
+    return a / b 
+
+# create a function to % 
+def modulus(a,b)
+    return a % b
+
+
